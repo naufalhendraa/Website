@@ -1,0 +1,303 @@
+.main-content {
+    padding-top: 5.25em;
+}
+
+.main-cover {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.image-box {
+    max-width: 950px;
+    max-height: 480px;
+    background-color: #012A4A;
+    margin-left: 5%;
+    border-radius: 16px;    
+}
+
+.main-image {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 16px;
+}
+
+.upcoming-events {
+    display: grid;
+    justify-items: center;
+    width: 278px;
+    height: 480px;
+    margin-right: 10%;
+    margin-left: 1.25em;
+    background: #0663B7;
+    box-shadow: 5px 6px 28px 5px rgba(0, 0, 0, 0.09);
+    border-radius: 16px;
+}
+
+.upcoming-text {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+}
+
+.text-u {
+    font-weight: var(--fw-bold);
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    margin-top: 1em;
+}
+
+.text-ev {
+    font-weight: var(--fw-bold);
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+.tanggal {
+    display: grid;
+    align-items: center;
+    width: 240px;
+    height: 370px;
+    align-self: flex-end;
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+
+.tanggal-container {
+    display: grid;
+    justify-items: center;
+}
+
+.tanggal-items {
+    align-self: center;
+    padding: 12px 20px 12px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.tanggal-items:hover {
+    background-color: var(--clr-thin);
+    cursor: pointer;
+}
+
+.bulan {
+    font-weight: var(--fw-bold);
+    margin: 0px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.proker {
+    margin: 0px;  
+}
+
+.tanggal {
+    font-size: 16px;
+}
+
+.main-content .youtube {
+    display: grid;
+    grid-template-columns: 5% 4% 91%;
+    align-items: center;
+    text-decoration: none;
+    padding-top: 0.5em;
+}
+
+.main-content .youtube a {
+    text-decoration: none;
+}
+
+.logo-ytb {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.logo-ytb img {
+    width: 2.25em;
+    padding-right: 0.1em;
+}
+
+.text-spe {
+    padding-left: 0.25em;
+    font-weight: var(--fw-semibold);
+    align-self: center;
+    color: var(--clr-black)
+}
+
+.text-spe:hover {
+    color: var(--clr-blue)
+}
+
+.speint {
+    padding: 7.5em 5% 7.5em 5%;
+    color: var(--clr-black);
+}
+
+.section-title {
+    color: var(--clr-dark);
+    font-size: 40px;
+    margin: 0 0 25px 0;
+}
+
+.speint h2 {
+    font-weight: var(--fw-semibold);
+    color: var(--clr-oldblue); 
+}
+
+.speint p {
+    max-width: 40.5em;
+    text-align: justify;
+}
+
+.visit-us {
+    letter-spacing: .0125em;
+    font-size: 1em;
+    color: #fff;
+    font-weight: var(--fw-bold);
+    height: 2.25em;
+    width: 7.312em;
+    cursor: pointer;
+    border: none;
+    background-color: var(--clr-blue);
+    border-radius: 0.3em;
+    box-shadow: inset 0 0 0 0 var(--clr-blue);
+    transition: .5s;
+}
+
+.visit-us:hover {
+    background-color: var(--clr-black);
+}
+
+.ads {
+    /* margin-top: 1em; */
+    margin: 0;
+    height: 10.9em;
+    width: auto;
+    background-image: url(../longads.jpg);
+    background-size: cover;
+    /* background-color: #D9D9D9; */
+}
+
+/* .ads img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0;
+} */
+
+.achievements {
+    padding: 5.5em 5% 5.5em 5%;
+    color: var(--clr-black)
+}
+
+.achievements p {
+    color: var(--clr-black);
+    margin: 0.5em 0 0.5em 0;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    /* align-content: center; */
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    padding: 2.5em 0% 2.5em 0;
+}
+
+.winner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 20em;
+    width: 20.5em;
+    border-radius: 0.9em;
+    background-color: var(--clr-thin);
+    box-shadow: 0.25em 0.25em 0.75em rgba(0,0,0,0);
+    transition: .3s;
+    cursor: default;
+}
+
+.winner-foto {
+    margin-top: 1em;
+    height: 11em;
+    width: 18em;
+    border-radius: 0.6em;
+    background-color: #fff;
+    box-shadow: 0.25em 0.25em 0.75em rgba(0,0,0,0);
+    transition: .3s;
+    cursor: pointer;
+}
+
+.winner-foto:hover {
+    scale: 105%;
+}
+
+.winner-foto img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 0.6em;
+}
+
+.winner .judul {
+    font-weight: var(--fw-semibold);
+    font-size: 1em;
+    margin: 1em 0 0 0;
+}
+
+.winner .isi {
+    margin: 0.25em 0.25em 1.25em 0.25em;
+    font-size: 0.8em;
+    text-align: center;
+    max-width: 17em;
+}
+
+@media (max-width: 1500px) {
+    .upcoming-events {
+        display: none;
+    }
+
+    .main-content .youtube {
+        display: none;
+    }
+
+    .image-box {
+        margin: 0 5%;
+        width: auto;
+    }
+    .ads {
+        background-color: #012A4A;
+        background-image: none;
+        height: 0.1em;
+    }
+
+    .container {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .winner {
+        margin: 0.75em;
+    }
+
+@media (max-width: 698.4px) {
+    .speint {
+        padding: 3.75em 5%;
+    }
+
+    .achievements {
+        padding: 3.75em 5%;
+    }
+
+    .speint h1, .speint h2 {
+        line-height: 1.25em;
+    }
+}
+
+}
